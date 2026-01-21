@@ -1,16 +1,59 @@
-# React + Vite
+# 🚀 Hritik Dua | Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, developer-centric portfolio designed to showcase software engineering expertise. Featuring a unique REST API Response hero section, custom typewriter animations, and a modular architecture built for scalability and ease of maintenance.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Framework:** React 18 (Functional Components & Hooks)
+- **Build Tool:** Vite (Lightning-fast HMR)
+- **Styling:** Tailwind CSS (Utility-first CSS)
+- **Icons:** Lucide React
+- **Animations:** Custom CSS Keyframes & Tailwind Transitions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Modular Architecture
 
-## React Compiler
+This project has been refactored from a monolithic file into a modular structure to follow the **Separation of Concerns** principle. This makes the codebase cleaner and easier to update.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    src/
+    ├── components/          # Reusable UI Atoms
+    │   ├── AnimationStyles.jsx  # Global Keyframes & Animations
+    │   ├── Navbar.jsx           # Floating Navigation Logic
+    │   ├── RestApiBox.jsx       # Custom JSON-style Terminal
+    │   └── Typewriter.jsx       # Dynamic Text Animation
+    ├── sections/            # Feature-rich Page Sections
+    │   ├── Home.jsx             # Hero Section
+    │   ├── Projects.jsx         # Project Grid & Cards
+    │   ├── About.jsx            # Professional Background
+    │   └── Contact.jsx          # Contact Form & Social Links
+    ├── App.jsx              # Main Layout & State Routing
+    └── index.css            # Tailwind Directives & Root Styles
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
+- **Terminal Hero Section:** A visual representation of profile data delivered via a mock REST API interface.
+- **Dynamic Typewriter:** Smoothly transitions between roles (B.Tech Student, Lead Developer, etc.).
+- **Responsive Navigation:** A glassmorphic, floating navbar optimized for mobile and desktop orientations.
+- **Project Showcase:** Interactive cards featuring tech stacks and external links.
+- **Optimized Assets:** Resume and favicons served directly via the Vite static asset pipeline (/public).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Local Setup
+1. Clone the Repo:
+```bash
+git clone https://github.com/Hritik07/hritik-portfolio.git
+cd hritik-portfolio
+```
+2. Install Dependencies:
+```bash
+npm install
+```
+3. Launch Development Server:
+```bash
+npm run dev
+```
+View the site at [http://localhost:5173](http://localhost:5173).
+
+## 🌐 Connect with Me
+- Email: [hritikdua.dev@gmail.com](mailto:hritikdua.dev@gmail.com)
+- LinkedIn: [linkedin.com/in/hritikdua](https://linkedin.com/in/hritikbash)
+
+## 📄 License & Status
+Hritik Dua - B.Tech 3rd Year | Lead Developer @ Vibezarurihai | Kanpur, India
+#### If you like this project, feel free to give it a ⭐ on GitHub!
