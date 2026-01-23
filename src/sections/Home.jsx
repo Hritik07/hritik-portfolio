@@ -35,8 +35,14 @@ const Home = ({ onNavigate }) => (
         </a>
       </div>
       <div className="flex items-center gap-10 pt-8 opacity-0 animate-fadeInUp stagger-3">
-        <Github className="text-gray-500 hover:text-white cursor-pointer transition w-7 h-7 hover:scale-110" />
-        <Linkedin className="text-gray-500 hover:text-white cursor-pointer transition w-7 h-7 hover:scale-110" />
+        {/* <Github className="text-gray-500 hover:text-white cursor-pointer transition w-7 h-7 hover:scale-110" /> */}
+        <a
+        href="https://www.linkedin.com/in/hritikbash"
+        target="_blank"
+        rel="noopener noreferrer"
+  >
+  <Linkedin className="text-gray-500 hover:text-white cursor-pointer transition w-7 h-7 hover:scale-110" />
+</a>
         {/* <Twitter className="text-gray-500 hover:text-white cursor-pointer transition w-7 h-7 hover:scale-110" /> */}
       </div>
     </div>
