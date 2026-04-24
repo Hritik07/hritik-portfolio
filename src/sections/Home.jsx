@@ -43,7 +43,7 @@ const Home = ({ onNavigate }) => (
       </div>
       <div className="flex items-center gap-10 pt-8 opacity-0 animate-fadeInUp stagger-3">
         <a
-          href="https://github.com/hritikduaaa"
+          href="https://github.com/Hritik07"
           target="_blank"
           rel="noopener noreferrer"
         >
