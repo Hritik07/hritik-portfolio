@@ -17,6 +17,15 @@ const Projects = () => {
       tags: ["Python", "TensorFlow", "ML"],
       link: "https://github.com/Hritik07/stg.forensics"
     },
+
+    {
+  title: "PhishShield",
+  desc: "AI-powered Chrome extension that detects phishing sites in real time — scores domains 0–100 using WHOIS intelligence, URL analysis, and Gemini AI. Blocks clipboard actions and warns users before sensitive data is entered.",
+  icon: <Shield className="text-green-400" />,
+  tags: ["Chrome MV3", "Node.js", "Gemini AI", "Snowflake", "Render", "WHOIS API"],
+  link: "https://phish-shield-sigma-roan.vercel.app/index.html"
+ },
+
     {
       title: "Offline-First Learning PWA",
       desc: "A resilient educational app with specialized Hindi voice instructions, optimized for low-bandwidth zones.",
