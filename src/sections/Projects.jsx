@@ -86,7 +86,7 @@ const Projects = ({ onNavigate }) => {
       desc: "ML model implementation for detecting hidden data within image carriers using deep learning techniques.",
       icon: <Shield className="text-blue-400" />,
       tags: ["Python", "TensorFlow", "ML"],
-      link: "https://github.com/Hritik07/stg.forensics"
+      link: "https://steganalysis.vercel.app/"
     },
     {
       title: "PhishShield",
@@ -100,14 +100,14 @@ const Projects = ({ onNavigate }) => {
       desc: "A resilient educational app with specialized Hindi voice instructions, optimized for low-bandwidth zones.",
       icon: <Smartphone className="text-green-400" />,
       tags: ["PWA", "Supabase", "React"],
-      link: "#"
+      link: "https://digital-saathi-client.vercel.app/"
     },
     {
       title: "AI Rural Health Kiosk",
       desc: "IoT-powered health screening kiosk for rural areas — collects SpO₂, heart rate & temperature via Raspberry Pi, syncs to Supabase, and connects patients with doctors and pharmacies through dedicated web portals.",
       icon: <Cpu className="text-cyan-400" />,
       tags: ["Raspberry Pi", "Python", "Supabase", "I2C", "React"],
-      link: null,                  // no external link — has detail page
+      link: null,           
       detailPage: 'project-health-kiosk'
     }
   ];
