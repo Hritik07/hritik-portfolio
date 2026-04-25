@@ -20,7 +20,7 @@ const RestApiBox = () => (
           <Globe size={12} /> Response Body
         </div>
         <div className="flex items-center gap-1.5 text-green-400 font-bold text-[10px]">
-           <CheckCircle size={10} /> 20 OK
+           <CheckCircle size={10} /> 200 OK
         </div>
       </div>
       <div className="p-8 space-y-2 bg-gradient-to-br from-gray-900 via-gray-900 to-blue-900/10">
