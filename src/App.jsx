@@ -5,7 +5,8 @@ import Home from './sections/Home';
 import Projects from './sections/Projects';
 import About from './sections/About';
 import Contact from './sections/Contact';
-import HealthKioskProject from './sections/HealthKioskProject'; // ← ADD THIS
+import HealthKioskProject from './sections/HealthKioskProject';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [activePage, setActivePage] = useState('home');
