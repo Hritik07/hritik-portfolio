@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 
 const Typewriter = () => {
   const phrases = [
-    "B.Tech 3rd Year Student",
+    "B.Tech Final Year Student",
     "Lead Developer @ Vibezarurihai",
-    "Full-Stack Software Developer",
-    "Machine Learning Enthusiast",
-    "Building from Kanpur, India"
+    "Backend Developer",
+    "Cyber Security Enthusiast",
+    "Learning DevOps"
   ];
   
   const [index, setIndex] = useState(0);
