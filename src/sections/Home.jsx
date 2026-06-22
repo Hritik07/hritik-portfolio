@@ -34,7 +34,7 @@ const Home = ({ onNavigate }) => (
           VIEW PROJECTS
         </button>
         <a 
-          href="/HritikDua_Resume.pdf" 
+          href="/Hritik_Dua_CV.pdf" 
           download
           className="bg-white/5 border-2 border-gray-800 text-white px-10 py-4 rounded-2xl font-black flex items-center gap-2 hover:bg-white/10 transition-all"
         >

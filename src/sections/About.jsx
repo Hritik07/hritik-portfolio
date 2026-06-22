@@ -9,7 +9,7 @@ const About = () => (
     <div className="bg-gray-900 border-2 border-gray-800 p-10 md:p-14 rounded-[3rem] shadow-2xl space-y-8 animate-fadeInUp">
       <p className="text-gray-200 text-2xl leading-relaxed font-bold">
         I am <span className="text-blue-400 underline decoration-4 underline-offset-8 decoration-blue-500/50">Hritik Dua</span>, 
-        a B.Tech 3rd-year Computer Science student with hands-on experience across software development, hardware integration, and AI-driven systems.
+        a B.Tech Final year Computer Science student with hands-on experience across software development, hardware integration, and AI-driven systems.
       </p>
       <div className="space-y-6 text-gray-400 text-lg font-medium leading-relaxed">
         <p className="opacity-0 animate-fadeInUp stagger-1">
