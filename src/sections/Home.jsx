@@ -14,7 +14,7 @@ const Home = ({ onNavigate }) => (
   <div className="max-w-7xl mx-auto min-h-[90vh] flex flex-col lg:flex-row items-center justify-between px-6 py-20 gap-16 overflow-hidden">
     <div className="flex-1 text-left space-y-8 order-2 lg:order-1 animate-fadeInLeft">
       <div className="inline-flex items-center px-4 py-2 rounded-xl bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-black tracking-widest uppercase">
-        <GraduationCap size={16} className="mr-2" /> B.Tech 3rd Year
+        <GraduationCap size={16} className="mr-2" /> B.Tech Final Year
       </div>
       <div>
         <h1 className="text-6xl md:text-8xl font-black mb-4 text-gradient tracking-tighter leading-tight drop-shadow-2xl text-white">
