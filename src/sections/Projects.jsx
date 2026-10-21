@@ -75,6 +75,13 @@ import { Layers, Shield, Smartphone, ExternalLink, Cpu } from 'lucide-react';
 const Projects = ({ onNavigate }) => {
   const projects = [
     {
+      title: "Mail Rakshak",
+      desc: "AI-Powered Email Threat Detection, GeoLocation and Forensic Intelligence Platform. An AI-powered platform that treats every reported suspicious email as a forensic case. It detects phishing, traces where the email came from, links related emails into campaigns, and preserves the findings as tamper-evident evidence using blockchain.",
+      icon: <Layers className="text-red-400" />,
+      tags: ["React/Node/Express", "Python/Distilbird", "Blockchain"],
+      link: "https://mailrakshak.tech"
+    },
+    {
       title: "Vibezarurihai Platform",
       desc: "Architected and developed a full-scale creative ecosystem for artist management and event booking in Kanpur.",
       icon: <Layers className="text-purple-400" />,
